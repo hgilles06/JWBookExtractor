@@ -1,0 +1,5 @@
+{ 
+    "source_file": "sourceJWBooks.csv",
+    "target_file": "targetJWBooks.csv",
+    "save_dir": "data"
+}
