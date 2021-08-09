@@ -22,5 +22,5 @@ for i in tqdm(range(book_urls.shape[0])):
     source_url = book_urls.source_url.iloc[i]
     target_url = book_urls.target_url.iloc[i]
     
-    SaveSrcTgt(target_url, target_url, source_file, target_file, save_dir)
+    SaveSrcTgt(source_url, target_url, source_file, target_file, save_dir)
 
